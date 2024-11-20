@@ -1,9 +1,11 @@
+
+#include "classes/wifi_communication.h"
+#include "classes/BLE_communication.h"
+#include "classes/yaml_to_json_parser.h"
+#include "classes/esp_memory_management.h"
+
 #ifndef MAIN
 #define MAIN
-#include "wifi_communication.ino"
-#include "BLE_communication.ino"
-#include "yaml_to_json_parser.ino"
-#include "esp_memory_management.ino"
 
 #define STACK_SIZE 2048
 Preferences preference;

@@ -180,7 +180,7 @@ class Received_command{
     uint8_t command_payload[MAX_PAYLOAD_SIZE];
     int command_payload_len;
     bool is_pending;
-    Received_command(): command_payload(NULL),command_payload_len(0) , is_pending(false) {}
+    Received_command(): command_payload{0}, command_payload_len(0), is_pending(false) {}
 };
 
 /**

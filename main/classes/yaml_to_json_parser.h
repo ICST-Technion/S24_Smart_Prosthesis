@@ -5,7 +5,7 @@
 #include <YAMLDuino.h>
 #include <string>
 #include <vector>
-#include "hand_functions.ino"
+#include "hand_functions.h"
 #define STACK_SIZE 2048
 extern Hand* hand;
 extern TaskHandle_t hw_Management_Handle;
